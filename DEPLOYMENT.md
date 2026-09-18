@@ -18,4 +18,4 @@ HTTPS provisioning was restarted using GitHub's documented remove/re-add custom 
 
 Canonical URL: https://dankoe.fangs.cc/
 
-Note: the legacy Pages status endpoint briefly retained an errored state from the cancelled domain-rebind build even after the newer Actions deployment succeeded. Live HTTPS and the successful deployment run are the delivery evidence; a clean rebuild was requested to refresh the legacy status.
+Final independent checks: Pages status `built`; latest build status `built` with no error; certificate `approved`; `https_enforced: true`; HTTP redirects to HTTPS. The clean rebuild also cleared the transient legacy status left by domain rebinding.
