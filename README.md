@@ -22,7 +22,7 @@ npm run validate
 
 ```sh
 npm run sync
-npm run translate -- --workers 12
+npm run translate -- --workers 12 --transport-model gemini-3.1-pro-preview
 npm run build
 npm run validate
 ```
@@ -49,3 +49,5 @@ GitHub Pages：Deploy from branch → `gh-pages` / root；自定义域名 `danko
 原作者及配图权利人保留内容版权。每篇都有原文链接和非官方翻译说明；禁用搜索引擎索引。原站的客服、测试、活动页面不作为文章收录，课程和最新订阅入口指向官方。
 
 这是 2026-09-18 的内容快照，更新是显式执行命令，不声称已建立定时同步。
+
+2026-09-18 实测：默认 Claude 上游在批量翻译中触发限流，后续通过备用模型通道完成。可用性会变化；`--transport-model` 可更换调用通道，仍复用已验证缓存。长输出预算与按块校验用于防止截断。

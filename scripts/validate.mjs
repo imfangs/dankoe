@@ -11,6 +11,10 @@ for(const a of index){
  if(!await exists(file)){errors.push('Missing article '+a.url);continue;}
  const html=await fs.readFile(file,'utf8'),$=load(html);
  if(!$('h1').text().includes(a.title))errors.push('Wrong h1 '+a.url);
+ for(const heading of $('.vp-doc h1,.vp-doc h2,.vp-doc h3').toArray()){
+  const text=$(heading).text();
+  if(/[A-Za-z]{3,}/.test(text)&&!/[\u4e00-\u9fff]/.test(text))errors.push('Untranslated heading '+a.url+': '+text);
+ }
  if(!$('meta[name="robots"]').attr('content')?.includes('noindex'))errors.push('Missing robots '+a.url);
  if(!$('a[href^="https://thedankoe.com/"]').length)errors.push('Missing source '+a.url);
  if(/AWSAccessKeyId|[?&](?:Signature|X-Amz-Signature)=|<script[^>]*src=["']https?:/.test(html))errors.push('Unexpected private URL or external script '+a.url);
