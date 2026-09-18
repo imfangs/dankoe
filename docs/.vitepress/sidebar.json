@@ -3,6 +3,10 @@
     "text": "阅读导航",
     "items": [
       {
+        "text": "格得精选",
+        "link": "/picks"
+      },
+      {
         "text": "全部文章",
         "link": "/letters/"
       },

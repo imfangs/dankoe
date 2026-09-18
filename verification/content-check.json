@@ -1,9 +1,10 @@
 {
-  "checkedAt": "2026-09-18T03:20:53.428Z",
+  "checkedAt": "2026-09-18T08:28:03.984Z",
   "articles": 190,
   "expected": 190,
   "complete": true,
+  "curatedArticles": 10,
   "imagesChecked": 383,
-  "internalLinksChecked": 510,
+  "internalLinksChecked": 520,
   "errors": []
 }

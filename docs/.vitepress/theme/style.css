@@ -167,3 +167,21 @@
 .load-more{display:block;margin:30px auto;padding:12px 28px;border:1px solid var(--vp-c-divider);border-radius:5px;font:inherit;font-size:14px}.load-more:hover{background:var(--vp-c-bg-soft)}
 .article-meta{margin:-5px 0 30px;padding:0 0 24px;border-bottom:1px solid var(--vp-c-divider);font-size:13px;color:var(--vp-c-text-3);line-height:1.8}.article-meta p{font-size:15px;margin:0 0 10px}.article-meta a{display:inline-block;margin:12px 16px 0 0}.translation-note{font-size:12px}
 @media(max-width:640px){.reading-intro{padding-top:12px}.reading-intro h1{font-size:34px}.reading-intro .lead{font-size:17px}.article-row{grid-template-columns:1fr;gap:10px;padding:23px 0}.article-date{flex-direction:row;gap:15px}.article-summary h2{font-size:20px}.library-controls input{flex-basis:100%;min-width:0}.library-controls select{flex:1;min-width:0}.translation-note{display:block;margin-top:8px}}
+/* Curated reading and explicit, browser-local progress. */
+.reading-filters{display:flex;align-items:center;flex-wrap:wrap;gap:12px;margin-top:12px;font-size:14px}
+.reading-filters select{font:inherit;padding:9px 12px;border:1px solid var(--vp-c-divider);border-radius:6px;background:var(--vp-c-bg);color:var(--vp-c-text-1)}
+.picks-toggle{display:inline-flex;align-items:center;gap:8px;cursor:pointer;margin-right:auto;min-height:40px}.picks-toggle input{width:16px;height:16px;accent-color:var(--vp-c-brand-1)}
+.library-status{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;margin-top:20px;font-size:13px;color:var(--vp-c-text-2)}
+.vp-doc .reading-storage-note{margin:6px 0 10px;font-size:12px;line-height:1.7;color:var(--vp-c-text-2)}
+.reading-storage-warning{font-size:13px;color:var(--vp-c-text-1);border-left:2px solid var(--vp-c-brand-1);padding-left:12px}
+.pick-rank{font-size:20px;letter-spacing:.04em;color:var(--vp-c-brand-1);font-variant-numeric:tabular-nums}.pick-rank span{font-size:12px;letter-spacing:0}
+.article-summary .pick-reason{font-size:16px;line-height:1.85;margin:12px 0;color:var(--vp-c-text-1)}
+.pick-link{font-size:12px;margin-left:14px}.article-actions{display:flex;align-items:center;flex-wrap:wrap;gap:20px;margin-top:18px;font-size:14px}
+.reading-action,.reset-filters{font:inherit;font-size:13px;line-height:1.5;padding:9px 13px;border:1px solid var(--vp-c-divider);border-radius:5px;color:var(--vp-c-text-2);background:transparent;cursor:pointer}
+.reading-action:hover,.reset-filters:hover{background:var(--vp-c-bg-soft)}.reading-action.completed{color:var(--vp-c-brand-1);border-color:var(--vp-c-brand-1)}.reading-action:disabled{opacity:.5;cursor:wait}
+.reading-action:focus-visible,.reset-filters:focus-visible,.reading-filters select:focus-visible,.pick-brief summary:focus-visible{outline:2px solid var(--vp-c-brand-1);outline-offset:3px}
+.pick-brief{margin-top:16px}.pick-brief summary{cursor:pointer;font-size:14px;color:var(--vp-c-brand-1);padding:5px 0;width:fit-content}
+.brief-content{margin-top:12px;padding:4px 0 2px 18px;border-left:2px solid var(--vp-c-divider);font-size:15px}.brief-content .brief-label{margin:16px 0 6px;font-size:13px;font-weight:600;color:var(--vp-c-text-1)}.brief-content .brief-label:first-child{margin-top:0}.brief-content p,.brief-content ul{margin:6px 0 14px}.brief-content li+li{margin-top:8px}.brief-content .brief-caveat{color:var(--vp-c-text-2)}
+.article-row[id]{scroll-margin-top:90px}.article-reading-tools{display:flex;align-items:center;gap:16px;flex-wrap:wrap;margin-top:18px}.article-meta .article-reading-tools a{margin:0}.article-reading-tools>span{font-size:12px}.has-been-read .article-date:after{content:'已读';color:var(--vp-c-brand-1);font-size:12px}
+@media(max-width:640px){.picks-toggle{flex-basis:100%}.reading-filters select{flex:1;min-width:0}.pick-rank{font-size:16px}.article-date{align-items:baseline;flex-wrap:wrap}.article-summary .pick-reason{font-size:15px}.brief-content{padding-left:12px;font-size:14px}.library-status{flex-direction:column;gap:4px}.article-reading-tools{gap:12px}.article-row[id]{scroll-margin-top:120px}}
+@media(max-width:640px){.reading-action,.reset-filters,.reading-filters select,.picks-toggle{min-height:44px}.pick-brief summary{min-height:44px;padding:10px 0;line-height:24px}}

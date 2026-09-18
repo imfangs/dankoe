@@ -9,7 +9,7 @@ export default defineConfig({
   markdown: { config(md) { md.use(cjkFriendly) } },
   themeConfig: {
     skipToContentLabel: '跳转到正文', darkModeSwitchTitle: '切换至深色主题', lightModeSwitchTitle: '切换至浅色主题',
-    nav: [{text:'首页',link:'/'},{text:'全部文章',link:'/letters/'},{text:'关于本站',link:'/about'}],
+    nav: [{text:'首页',link:'/'},{text:'格得精选',link:'/picks'},{text:'全部文章',link:'/letters/'},{text:'关于本站',link:'/about'}],
     sidebar: {'/letters/':sidebar,'/blog/':sidebar},
     search: {provider:'local',options:{translations:{button:{buttonText:'搜索文章',buttonAriaLabel:'搜索文章'},modal:{noResultsText:'没有找到结果',resetButtonTitle:'清除',footer:{selectText:'选择',navigateText:'切换',closeText:'关闭'}}}}},
     outline: {label:'本页目录',level:[2,3]},docFooter:{prev:'上一篇',next:'下一篇'},darkModeSwitchLabel:'切换明暗主题',sidebarMenuLabel:'文章目录',returnToTopLabel:'返回顶部',
