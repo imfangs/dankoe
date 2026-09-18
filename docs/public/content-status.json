@@ -1,0 +1,13 @@
+{
+  "builtAt": "2026-09-18T03:16:23.889Z",
+  "articles": 190,
+  "expected": 190,
+  "complete": true,
+  "sourceDateRange": [
+    "2021-05-12",
+    "2025-08-31"
+  ],
+  "alignedBlocks": 30444,
+  "localImages": 360,
+  "upstreamImageUrls": 365
+}

@@ -1,0 +1,9 @@
+node_modules/
+docs/.vitepress/cache/
+docs/.vitepress/dist/
+.private/
+.DS_Store
+# Raw upstream snapshots and model receipts remain local; published docs include clean sources.
+content/
+
+__pycache__/

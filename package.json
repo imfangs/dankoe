@@ -1,0 +1,22 @@
+{
+  "name": "dankoe-zh",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "node scripts/build-content.mjs && vitepress build docs",
+    "preview": "vitepress preview docs",
+    "sync": "node scripts/sync.mjs",
+    "translate": "python3 scripts/translate.py",
+    "validate": "node scripts/validate.mjs"
+  },
+  "dependencies": {
+    "vitepress": "1.6.4"
+  },
+  "devDependencies": {
+    "cheerio": "1.0.0",
+    "markdown-it-cjk-friendly": "^3.0.0",
+    "turndown": "7.2.0"
+  }
+}

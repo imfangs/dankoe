@@ -1,0 +1,73 @@
+{
+  "the-deep-work-routine-that-changed-my-life": {
+    "title": "改变我人生的深度工作安排",
+    "replacements": [
+      [
+        "routine",
+        "日程"
+      ]
+    ]
+  },
+  "the-future-of-productivity-a-daily-routine-to-organize-your-uncertain-life": {
+    "title": "生产力的未来：用日常安排为不确定的生活建立秩序",
+    "replacements": [
+      [
+        "routine",
+        "日程"
+      ]
+    ]
+  },
+  "self-discipline-is-easy-actually": {
+    "title": "其实，自律很容易",
+    "replacements": [
+      [
+        "自我约束",
+        "自律"
+      ]
+    ]
+  },
+  "how-to-think-like-a-genius-the-map-of-all-knowledge": {
+    "title": "如何像天才一样思考：所有知识的地图"
+  },
+  "this-deep-work-strategy-made-me-700k-in-2-weeks-as-a-procrastinator": {
+    "title": "作为一个拖延者，这套深度工作策略让我在30天内赚了70万美元"
+  },
+  "successful-people-dont-ask-for-advice-why-99-of-people-fail": {
+    "title": "成功的人不寻求建议：为什么99%的人会失败"
+  },
+  "how-to-not-end-up-mediocre": {
+    "title": "如何避免最终沦为平庸"
+  },
+  "a-message-from-a-recovering-atheist-how-to-find-god": {
+    "replacements": [
+      [
+        "## Ego Development & The Pre-Trans Fallacy",
+        "## 自我发展与前理性／超理性谬误"
+      ],
+      [
+        "### The Pre-Rational Stage",
+        "### 前理性阶段"
+      ],
+      [
+        "### The Rational Stage",
+        "### 理性阶段"
+      ],
+      [
+        "### The Trans Rational Stage",
+        "### 超理性阶段"
+      ],
+      [
+        "## How To Find God",
+        "## 如何找到上帝"
+      ],
+      [
+        "### Patterns Of God",
+        "### 上帝的模式"
+      ],
+      [
+        "### The Universe",
+        "### 宇宙"
+      ]
+    ]
+  }
+}

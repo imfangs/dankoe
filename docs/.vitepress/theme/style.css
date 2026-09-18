@@ -1,0 +1,169 @@
+/* Wait But Why 中译 — 阅读主题 */
+
+:root {
+  /* 米白底,黑字 — 接近 WBW 原站质感 */
+  --vp-c-bg: #fafaf7;
+  --vp-c-bg-alt: #f4f3ee;
+  --vp-c-bg-soft: #f0efea;
+  --vp-c-bg-mute: #e8e6df;
+  --vp-c-text-1: #1a1a1a;
+  --vp-c-text-2: #4a4a4a;
+  --vp-c-text-3: #7a7a7a;
+  --vp-c-brand-1: #d4541f;
+  --vp-c-brand-2: #e26637;
+  --vp-c-brand-3: #ef7a4f;
+  --vp-c-brand-soft: rgba(212, 84, 31, 0.12);
+
+  --vp-font-family-base: 'Inter', 'Noto Serif SC', -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+  --vp-font-family-mono: 'SF Mono', 'Fira Code', 'JetBrains Mono', monospace;
+
+  --vp-sidebar-width: 280px;
+  --vp-layout-max-width: 1440px;
+}
+
+.dark {
+  --vp-c-bg: #1a1a1a;
+  --vp-c-bg-alt: #232323;
+  --vp-c-bg-soft: #2a2a2a;
+  --vp-c-bg-mute: #333333;
+  --vp-c-text-1: #ececec;
+  --vp-c-text-2: #b8b8b8;
+  --vp-c-text-3: #8a8a8a;
+  --vp-c-brand-1: #ef7a4f;
+  --vp-c-brand-2: #e26637;
+  --vp-c-brand-3: #d4541f;
+  --vp-c-brand-soft: rgba(239, 122, 79, 0.15);
+}
+
+/* 正文 */
+.vp-doc {
+  line-height: 1.85;
+  letter-spacing: 0.01em;
+  font-size: 17px;
+}
+
+.vp-doc p {
+  text-align: justify;
+  margin: 1.1em 0;
+}
+
+.VPDoc .container .content {
+  max-width: 760px !important;
+}
+
+/* 标题 */
+.vp-doc h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.3;
+  border-bottom: none;
+  padding-bottom: 0;
+  margin-bottom: 1.5rem;
+}
+
+.vp-doc h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  border-bottom: 1px solid var(--vp-c-bg-mute);
+  padding-bottom: 0.4em;
+  margin-top: 2.5em;
+}
+
+.vp-doc h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 2em;
+}
+
+/* 图片 */
+.vp-doc img {
+  display: block;
+  margin: 1.8em auto;
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+/* 引用 */
+.vp-doc blockquote {
+  border-left: 3px solid var(--vp-c-brand-1);
+  background: var(--vp-c-bg-soft);
+  color: var(--vp-c-text-2);
+  padding: 0.8em 1.2em;
+  font-style: normal;
+  border-radius: 0 4px 4px 0;
+  margin: 1.5em 0;
+}
+
+.vp-doc blockquote p {
+  margin: 0.5em 0;
+}
+
+/* hr 装饰 */
+.vp-doc hr {
+  border: none;
+  text-align: center;
+  margin: 2.5em 0;
+  height: auto;
+}
+
+.vp-doc hr::after {
+  content: '* * *';
+  display: inline-block;
+  color: var(--vp-c-text-3);
+  letter-spacing: 0.5em;
+  font-size: 0.9rem;
+}
+
+/* 链接 */
+.vp-doc a {
+  color: var(--vp-c-brand-1);
+  text-decoration: none;
+  border-bottom: 1px solid var(--vp-c-brand-soft);
+  transition: border-color 0.15s;
+}
+
+.vp-doc a:hover {
+  border-bottom-color: var(--vp-c-brand-1);
+}
+
+/* 移动端 */
+@media (max-width: 768px) {
+  .vp-doc {
+    font-size: 16px;
+    line-height: 1.8;
+  }
+
+  .vp-doc h1 {
+    font-size: 1.6rem;
+  }
+
+  .vp-doc h2 {
+    font-size: 1.3rem;
+  }
+
+  .vp-doc img {
+    margin: 1.2em auto;
+  }
+}
+/* Reuse the wbw reading system; use restrained ink-blue links for this library. */
+:root { --vp-c-brand-1:#365b70; --vp-c-brand-2:#466d80; --vp-c-brand-3:#597d8d; --vp-c-brand-soft:rgba(54,91,112,.1); --vp-font-family-base:-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif; }
+.dark { --vp-c-brand-1:#a7c6d6; --vp-c-brand-2:#8cb3c6; --vp-c-brand-3:#739bae; --vp-c-brand-soft:rgba(167,198,214,.12); }
+.vp-doc p {text-align:left}.VPDoc.has-aside .content-container{max-width:760px}.VPDoc:not(.has-sidebar) .content-container{max-width:960px!important}
+.vp-doc h1{line-height:1.45;letter-spacing:-.025em}.vp-doc h2{line-height:1.55}.vp-doc p,.vp-doc li{line-height:1.9}
+.vp-doc img{height:auto}.vp-doc a{overflow-wrap:anywhere}.vp-doc pre{white-space:pre-wrap}.vp-doc table{max-width:100%;overflow:auto}
+.reading-intro{padding:38px 0 32px;border-bottom:1px solid var(--vp-c-divider)}
+.reading-intro .kicker{font-size:12px;letter-spacing:.18em;color:var(--vp-c-text-3)}
+.reading-intro h1{font-size:clamp(32px,4.2vw,52px);line-height:1.45;max-width:820px;margin:20px 0 24px;font-weight:600}
+.reading-intro .lead{font-size:19px;line-height:1.9;max-width:660px;color:var(--vp-c-text-2)}
+.reading-intro .intro-links{display:flex;gap:24px;flex-wrap:wrap;font-size:15px;margin:28px 0 8px}
+.section-heading{display:flex;justify-content:space-between;align-items:baseline;margin-top:38px;gap:16px}.section-heading h2{border:0;margin:0;padding:0;font-size:21px}.section-heading a{font-size:14px}
+.library-controls{display:flex;gap:12px;flex-wrap:wrap;margin:28px 0 0}.library-controls input,.library-controls select{font:inherit;font-size:15px;padding:11px 14px;border:1px solid var(--vp-c-divider);border-radius:6px;background:var(--vp-c-bg);color:var(--vp-c-text-1)}
+.library-controls input{flex:1;min-width:220px}.library-controls select{min-width:126px}.library-controls :focus-visible,.load-more:focus-visible{outline:2px solid var(--vp-c-brand-1);outline-offset:3px}
+.result-count{font-size:13px;color:var(--vp-c-text-3)}
+.article-row{display:grid;grid-template-columns:120px minmax(0,1fr);gap:30px;padding:28px 0;border-bottom:1px solid var(--vp-c-divider)}
+.article-date{font-size:12px;color:var(--vp-c-text-3);padding-top:6px;display:flex;flex-direction:column;gap:7px;font-variant-numeric:tabular-nums}
+.article-summary h2{border:0;margin:0 0 8px;padding:0;font-size:22px;line-height:1.5;letter-spacing:-.015em}.article-summary h2 a{color:var(--vp-c-text-1);border:0}.article-summary h2 a:hover{color:var(--vp-c-brand-1)}
+.article-summary .english-title{font-size:13px;line-height:1.5;color:var(--vp-c-text-3);margin:0 0 10px}.article-summary .excerpt{font-size:15px;color:var(--vp-c-text-2);line-height:1.8;margin:0 0 10px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}.reading-time{font-size:12px;color:var(--vp-c-text-3)}
+.load-more{display:block;margin:30px auto;padding:12px 28px;border:1px solid var(--vp-c-divider);border-radius:5px;font:inherit;font-size:14px}.load-more:hover{background:var(--vp-c-bg-soft)}
+.article-meta{margin:-5px 0 30px;padding:0 0 24px;border-bottom:1px solid var(--vp-c-divider);font-size:13px;color:var(--vp-c-text-3);line-height:1.8}.article-meta p{font-size:15px;margin:0 0 10px}.article-meta a{display:inline-block;margin:12px 16px 0 0}.translation-note{font-size:12px}
+@media(max-width:640px){.reading-intro{padding-top:12px}.reading-intro h1{font-size:34px}.reading-intro .lead{font-size:17px}.article-row{grid-template-columns:1fr;gap:10px;padding:23px 0}.article-date{flex-direction:row;gap:15px}.article-summary h2{font-size:20px}.library-controls input{flex-basis:100%;min-width:0}.library-controls select{flex:1;min-width:0}.translation-note{display:block;margin-top:8px}}
