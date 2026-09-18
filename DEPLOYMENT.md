@@ -19,3 +19,11 @@ HTTPS provisioning was restarted using GitHub's documented remove/re-add custom 
 Canonical URL: https://dankoe.fangs.cc/
 
 Final independent checks: Pages status `built`; latest build status `built` with no error; certificate `approved`; `https_enforced: true`; HTTP redirects to HTTPS. The clean rebuild also cleared the transient legacy status left by domain rebinding.
+
+## Curated reading release · 2026-09-18
+
+- Entry: https://dankoe.fangs.cc/picks
+- 10 manually curated recommendations with three-point briefs, reading questions and critical notes; the first three are prioritized.
+- Filters: curated-only, full-article reading time, unread/read; explicit read markers persist only in the current browser and synchronize between its tabs.
+- Source feature commit: `819cdef`; Pages deployment: `f29d8e3d5cf93b0c3ba9baeaec01fba6614c98a2`.
+- Production HTTPS returned 10 recommendations and 10 briefs. Five-minute filter returned two short articles and brief expansion worked. No relevant browser errors were observed. Local browser verification also covered refresh persistence, changes from the full article, cross-tab synchronization, empty-filter recovery, and the 390px mobile layout.
