@@ -1,0 +1,86 @@
+{
+  "units": "seconds",
+  "fps": 25,
+  "scenes": [
+    {
+      "id": "home",
+      "purpose": "观看者辨认非官方中文阅读站及长文范围",
+      "source": {
+        "file": "raw/full-home.webm",
+        "in": 0.76,
+        "out": 4.76
+      },
+      "in": 0,
+      "out": 4,
+      "speed": 1,
+      "screenText": "从一个问题开始。",
+      "sound": "original procedural underscore; source video has no audio",
+      "transition": "straight cut; loading/preparation gaps omitted",
+      "units": "seconds"
+    },
+    {
+      "id": "topic",
+      "purpose": "实际主题筛选从全部文章进入写作与创造",
+      "source": {
+        "file": "raw/full-topic.webm",
+        "in": 0.68,
+        "out": 6.68
+      },
+      "in": 4,
+      "out": 10,
+      "speed": 1,
+      "screenText": "沿着兴趣，找到主题。",
+      "sound": "original procedural underscore; source video has no audio",
+      "transition": "straight cut; loading/preparation gaps omitted",
+      "units": "seconds"
+    },
+    {
+      "id": "search",
+      "purpose": "输入关键词深思，结果实时变为同一篇文章",
+      "source": {
+        "file": "raw/full-search.webm",
+        "in": 0.48,
+        "out": 5.48
+      },
+      "in": 10,
+      "out": 15,
+      "speed": 1,
+      "screenText": "想读什么，就搜什么。",
+      "sound": "original procedural underscore; source video has no audio",
+      "transition": "straight cut; loading/preparation gaps omitted",
+      "units": "seconds"
+    },
+    {
+      "id": "brief",
+      "purpose": "展开精选的要点、实践问题和独立提醒",
+      "source": {
+        "file": "raw/full-brief.webm",
+        "in": 1.72,
+        "out": 9.72
+      },
+      "in": 15,
+      "out": 23,
+      "speed": 1,
+      "screenText": "先看导读，再读全文。",
+      "sound": "original procedural underscore; source video has no audio",
+      "transition": "straight cut; loading/preparation gaps omitted",
+      "units": "seconds"
+    },
+    {
+      "id": "reading",
+      "purpose": "在真实正文短暂阅读，保留原文入口和下一步网址",
+      "source": {
+        "file": "raw/full-reading.webm",
+        "in": 0.64,
+        "out": 7.64
+      },
+      "in": 23,
+      "out": 30,
+      "speed": 1,
+      "screenText": "带着自己的判断，慢慢读。",
+      "sound": "original procedural underscore; source video has no audio",
+      "transition": "straight cut; loading/preparation gaps omitted",
+      "units": "seconds"
+    }
+  ]
+}

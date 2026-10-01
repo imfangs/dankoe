@@ -1,0 +1,111 @@
+{
+  "mode": "sample",
+  "url": "https://dankoe.fangs.cc/",
+  "browser": "151.0.7922.34",
+  "viewport": {
+    "width": 1280,
+    "height": 800
+  },
+  "source": "/Users/fangs/workspace/side/dankoe/videos/promo-2026-10-01/raw/sample.webm",
+  "probe": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "vp8",
+        "codec_long_name": "On2 VP8",
+        "profile": "0",
+        "codec_type": "video",
+        "codec_tag_string": "[0][0][0][0]",
+        "codec_tag": "0x0000",
+        "mime_codec_string": "vp8",
+        "width": 1280,
+        "height": 800,
+        "coded_width": 1280,
+        "coded_height": 800,
+        "has_b_frames": 0,
+        "sample_aspect_ratio": "1:1",
+        "display_aspect_ratio": "8:5",
+        "pix_fmt": "yuv420p",
+        "level": -99,
+        "chroma_location": "center",
+        "field_order": "progressive",
+        "r_frame_rate": "25/1",
+        "avg_frame_rate": "25/1",
+        "time_base": "1/1000",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "eng",
+          "ENCODER": "Lavc61.3.100 libvpx",
+          "DURATION": "00:00:11.760000000"
+        }
+      }
+    ],
+    "format": {
+      "filename": "/Users/fangs/workspace/side/dankoe/videos/promo-2026-10-01/raw/sample.webm",
+      "nb_streams": 1,
+      "nb_programs": 0,
+      "nb_stream_groups": 0,
+      "format_name": "matroska,webm",
+      "format_long_name": "Matroska / WebM",
+      "start_time": "0.000000",
+      "duration": "11.760000",
+      "size": "612007",
+      "bit_rate": "416331",
+      "probe_score": 100,
+      "tags": {
+        "ENCODER": "Lavf61.1.100"
+      }
+    }
+  },
+  "mediaDuration": 11.76,
+  "clockMapping": "finalized media end minus wall delta; selected boundary frames must be reviewed",
+  "events": [
+    {
+      "event": "brief-start",
+      "wallSincePageSeconds": 3.51,
+      "url": "https://dankoe.fangs.cc/picks",
+      "scroll": 275,
+      "text": "格得精选\n​\n\n10 篇精选，前三篇优先。关于 AI 与判断、产品与表达，以及可持续的学习和生活。\n\n先看 brief，再决定读全文。要点来自原文，推荐与提醒是格得的判断。\n\n不限时长\n5 分钟以内\n10 分钟以内\n20 分钟以内\n全部进度\n未读\n已读\n10 篇精选文章\n精选已读 0 / 10 · 按推荐顺序\n\n时长按全文估算；已读进度只保存在当前浏览器，不跨设备同步。\n\n01 · 先读\nAI 与判断\n深思创作之死(以及如何领先所有人)\n\nThe Death Of Thoughtful Creation (& How To Get Ahead Of Everyone Else)\n\n最值得先读的一篇：当生成和执行越来越容易，怎样判断什么值得做，什么应该删掉？\n\n全文约 14 分钟\n1 分钟 brief\n阅读全文 →\n标为已读\n02 · 先读\n产品与表达\n启动一人企业最简单的方法(微产品)\n\nThe Simplest Way To Start A One-Person Business (Micro Products)\n\n适合把一个想法推进到真实交付：先找到一个小而明确、有人需要的结果，再决定是否扩大。\n\n全文约 13 分钟\n1 分钟 brief\n阅读全文 →\n标为已读\n03 · 先读\n产品与表达\n你不需要细分领域，你需要一个观点\n\nYou don’t need a niche, you need a point of view\n\n适合思考如何把多种兴趣连成一套作品：让别人记住你的判断方式，而不只记住你讨论的话题。\n\n全文约 8 分钟\n1 分钟 brief\n阅读全文 →\n标为已读\n04\nAI 与判断\n如何用 AI 记住你读过的一切\n\nHow To Remember Everything You Read With AI\n\n适合把 AI 从摘要工具变成阅读伙伴：解释难点、提出反例，并把新知识接到真实问题上。\n\n全文约 13 分钟\n1 分钟 brief\n阅读全文 →\n标为已读\n05\n专注与生活\n为什么“自助”正在毁掉你的生活\n\nWhy Self-Help Is Ruining Your Life\n\n一篇很短的校准文：收藏了很多方法之后，怎样避免把“感觉在进步”当成真的发生了改变？\n\n全文约 4 分钟\n1 分钟 brief\n阅读全文 →\n标为已读\n06\n学习与整合\n如何在拥有多重兴趣的情况下蓬勃发展\n\nHow To Thrive With Multiple Interests\n\n适合兴趣和项目很多时读：优势来自把经验连起来解决问题，也需要让想法真正完成。\n\n全文约 17 分钟\n1 分钟 brief\n阅读全文 →\n标为已读\n07\n产品与表达\n价值创造：建立我一人企业的核心技能\n\nValue Creation: The Skill That Built My One-Person Business\n\n适合审视产品介绍：用户能否看懂自己为什么需要它、会怎样得到结果，以及凭什么相信它？\n\n全文约 12 分钟\n1 分钟 brief\n阅读全文 →\n标为已读\n08\n专注与生活\n其实，自律很容易\n\nSelf-discipline is easy, actually\n\n适合在“需要更自律”之前检查一下：目标是否真正在乎，环境是否支持，行动是否足够具体？\n\n全文约 8 分钟\n1 分钟 brief\n阅读全文 →\n标为已读\n09\n专注与生活\n创作者们正在退出YouTube……为什么？\n\ncreators are quitting youtube… why?\n\n只要几分钟，适合检查一个增长目标是否正在挤掉创作本来的意义。\n\n全文约 3 分钟\n1 分钟 brief\n阅读全文 →\n标为已读\n10\n专注与生活\n如果你感到迷茫——去理解人生的这3个阶段\n\nIf You Feel Lost — Understand These 3 Phases Of Life\n\n留给方向不清或节奏变化的时候：先辨认当下需要探索、构建，还是维护。\n\n全文约 7 分钟\n1 分钟 brief\n阅读全文 →\n标为已读"
+    },
+    {
+      "event": "brief-end",
+      "wallSincePageSeconds": 10.553,
+      "url": "https://dankoe.fangs.cc/picks",
+      "scroll": 495,
+      "text": "格得精选\n​\n\n10 篇精选，前三篇优先。关于 AI 与判断、产品与表达，以及可持续的学习和生活。\n\n先看 brief，再决定读全文。要点来自原文，推荐与提醒是格得的判断。\n\n不限时长\n5 分钟以内\n10 分钟以内\n20 分钟以内\n全部进度\n未读\n已读\n10 篇精选文章\n精选已读 0 / 10 · 按推荐顺序\n\n时长按全文估算；已读进度只保存在当前浏览器，不跨设备同步。\n\n01 · 先读\nAI 与判断\n深思创作之死(以及如何领先所有人)\n\nThe Death Of Thoughtful Creation (& How To Get Ahead Of Everyone Else)\n\n最值得先读的一篇：当生成和执行越来越容易，怎样判断什么值得做，什么应该删掉？\n\n全文约 14 分钟\n1 分钟 brief\n\n原文的三个要点\n\n作者反对用产量代替作品质量，认为创作门槛降低后，选择、策展和克制会更重要。\n品味不是只会评价好作品；它要通过亲手构建、比较版本、承受失败和反复打磨来形成。\n用一个真正关心的项目筛选输入，把作品、个人经历与长期信任联系起来。\n\n带着这个问题读\n\n手上哪个项目最值得打磨？如果只能保留一个核心体验，你会留下什么，又会删掉什么？\n\n格得的提醒\n\n“AI 无法进入意义与洞见领域”是作者立场，不是已验证的能力边界。值得吸收的是判断标准与实践方法。\n\n阅读全文 →\n标为已读\n02 · 先读\n产品与表达\n启动一人企业最简单的方法(微产品)\n\nThe Simplest Way To Start A One-Person Business (Micro Products)\n\n适合把一个想法推进到真实交付：先找到一个小而明确、有人需要的结果，再决定是否扩大。\n\n全文约 13 分钟\n1 分钟 brief\n阅读全文 →\n标为已读\n03 · 先读\n产品与表达\n你不需要细分领域，你需要一个观点\n\nYou don’t need a niche, you need a point of view\n\n适合思考如何把多种兴趣连成一套作品：让别人记住你的判断方式，而不只记住你讨论的话题。\n\n全文约 8 分钟\n1 分钟 brief\n阅读全文 →\n标为已读\n04\nAI 与判断\n如何用 AI 记住你读过的一切\n\nHow To Remember Everything You Read With AI\n\n适合把 AI 从摘要工具变成阅读伙伴：解释难点、提出反例，并把新知识接到真实问题上。\n\n全文约 13 分钟\n1 分钟 brief\n阅读全文 →\n标为已读\n05\n专注与生活\n为什么“自助”正在毁掉你的生活\n\nWhy Self-Help Is Ruining Your Life\n\n一篇很短的校准文：收藏了很多方法之后，怎样避免把“感觉在进步”当成真的发生了改变？\n\n全文约 4 分钟\n1 分钟 brief\n阅读全文 →\n标为已读\n06\n学习与整合\n如何在拥有多重兴趣的情况下蓬勃发展\n\nHow To Thrive With Multiple Interests\n\n适合兴趣和项目很多时读：优势来自把经验连起来解决问题，也需要让想法真正完成。\n\n全文约 17 分钟\n1 分钟 brief\n阅读全文 →\n标为已读\n07\n产品与表达\n价值创造：建立我一人企业的核心技能\n\nValue Creation: The Skill That Built My One-Person Business\n\n适合审视产品介绍：用户能否看懂自己为什么需要它、会怎样得到结果，以及凭什么相信它？\n\n全文约 12 分钟\n1 分钟 brief\n阅读全文 →\n标为已读\n08\n专注与生活\n其实，自律很容易\n\nSelf-discipline is easy, actually\n\n适合在“需要更自律”之前检查一下：目标是否真正在乎，环境是否支持，行动是否足够具体？\n\n全文约 8 分钟\n1 分钟 brief\n阅读全文 →\n标为已读\n09\n专注与生活\n创作者们正在退出YouTube……为什么？\n\ncreators are quitting youtube… why?\n\n只要几分钟，适合检查一个增长目标是否正在挤掉创作本来的意义。\n\n全文约 3 分钟\n1 分钟 brief\n阅读全文 →\n标为已读\n10\n专注与生活\n如果你感到迷茫——去理解人生的这3个阶段\n\nIf You Feel Lost — Understand These 3 Phases Of Life\n\n留给方向不清或节奏变化的时候：先辨认当下需要探索、构建，还是维护。\n\n全文约 7 分钟\n1 分钟 brief\n阅读全文 →\n标为已读"
+    }
+  ],
+  "segments": [
+    {
+      "id": "brief",
+      "duration": 7,
+      "wallStart": 1790842001675,
+      "wallEnd": 1790842008724,
+      "sourceIn": 4.403,
+      "sourceOut": 11.403
+    }
+  ],
+  "errors": []
+}

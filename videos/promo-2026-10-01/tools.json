@@ -1,0 +1,49 @@
+{
+  "ffmpeg": {
+    "path": "/opt/homebrew/Caskroom/miniforge/base/bin/ffmpeg",
+    "realpath": "/opt/homebrew/Caskroom/miniforge/base/bin/ffmpeg",
+    "sha256": "4715ae35072983ff692eec746ec4ae6f71666fbf3f6d7020a80f0ea8be1eb716",
+    "version": "ffmpeg version 8.1.1 Copyright (c) 2000-2026 the FFmpeg developers"
+  },
+  "ffprobe": {
+    "path": "/opt/homebrew/Caskroom/miniforge/base/bin/ffprobe",
+    "sha256": "f6d7c4e2a6ffa8fec6c0bcfb3941b1e9871e60c325cfc1c302667f5c335c0f17"
+  },
+  "node": {
+    "usedCommand": "node",
+    "resolvedCommand": "/opt/homebrew/bin/node",
+    "version": "v26.8.1",
+    "bundledPath": "/Users/fangs/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node"
+  },
+  "playwright": {
+    "package": "/Users/fangs/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright/package.json",
+    "version": "1.62.1",
+    "packageSHA256": "ca170ec143a88ed3043ac953eb3b2377b2b97304104f4e1e23316684ce2c35af"
+  },
+  "fonts": [
+    {
+      "path": "/System/Library/Fonts/Hiragino Sans GB.ttc",
+      "sha256": "f887295caf2881cab9554b14c5ab4c9ee624c3895599da152ec37416b5aefae0",
+      "distribution": "Rendered PNG only; operating-system font file not distributed"
+    },
+    {
+      "path": "/System/Library/Fonts/HelveticaNeue.ttc",
+      "sha256": "a43317500f5c8086ebbe479b32e86f53ce7c075c14283aa9894cc23be5bfd8e2",
+      "distribution": "Rendered PNG only; operating-system font file not distributed"
+    }
+  ],
+  "renderMethod": "Pillow raster title overlays plus FFmpeg overlay; max encoder threads=2",
+  "sampleReview": {
+    "sha256": "85b09f828a0e899ac62d33d1869c053576e3b05904097a8f90a00b39c0e5bc4b",
+    "duration": 7,
+    "visual": "Side-rail headings and full contained product UI separate; brief points, question, critical reminder visible; no overlay obstruction",
+    "listening": "not performed"
+  },
+  "python": {
+    "executable": "/opt/homebrew/opt/python@3.14/bin/python3.14",
+    "version": "3.14.7 (main, Aug  5 2026, 10:29:49) [Clang 21.0.0 (clang-2100.1.1.101)]",
+    "Pillow": "12.1.1",
+    "NumPy": "2.4.2"
+  },
+  "productLockSHA256": "9eda7de0f0fc453f4ddee2278773af00887f98cf4e0fcc1452896e8b63154b32"
+}

@@ -1,0 +1,22 @@
+{
+  "file": "final.mp4",
+  "sha256": "686c86eb152d245380f19be0357bee99e4c9f51ce8cb3a07364abc0a416cfe84",
+  "browser": "151.0.7922.34",
+  "fromStart": true,
+  "wallPlaybackSeconds": 30.245,
+  "ended": true,
+  "currentTime": 30,
+  "duration": 30,
+  "videoWidth": 1920,
+  "videoHeight": 1080,
+  "error": null,
+  "muted": false,
+  "volume": 0.65,
+  "quality": {
+    "totalVideoFrames": 750,
+    "droppedVideoFrames": 0,
+    "corruptedVideoFrames": 0
+  },
+  "errors": [],
+  "auditoryPerception": false
+}

@@ -1,0 +1,10 @@
+rendered/
+review/frames/
+raw/sample/
+raw/full/
+
+# Superseded local edit; selected source and final remain tracked.
+raw/full-v1.webm
+final-v1.mp4
+raw/continuous-rejected-full.webm
+continuous-rejected-final.mp4

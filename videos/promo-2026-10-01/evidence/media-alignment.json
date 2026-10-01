@@ -1,0 +1,62 @@
+[
+  {
+    "id": "home",
+    "method": "first decoded frame within max(minMSE*1.15,minMSE+1.5) of independent starting-page screenshot",
+    "reference": "raw/reference-home.png",
+    "minMSE": 0.0459375,
+    "firstMatchFrame": 19,
+    "lastMatchFrame": 196,
+    "fps": 25,
+    "previousTailIn": 3.68,
+    "sourceIn": 0.76,
+    "sourceOut": 4.76
+  },
+  {
+    "id": "topic",
+    "method": "first decoded frame within max(minMSE*1.15,minMSE+1.5) of independent starting-page screenshot",
+    "reference": "raw/reference-topic.png",
+    "minMSE": 0.0666875,
+    "firstMatchFrame": 17,
+    "lastMatchFrame": 73,
+    "fps": 25,
+    "previousTailIn": 3.88,
+    "sourceIn": 0.68,
+    "sourceOut": 6.68
+  },
+  {
+    "id": "search",
+    "method": "first decoded frame within max(minMSE*1.15,minMSE+1.5) of independent starting-page screenshot",
+    "reference": "raw/reference-search.png",
+    "minMSE": 0.0655,
+    "firstMatchFrame": 12,
+    "lastMatchFrame": 61,
+    "fps": 25,
+    "previousTailIn": 3.16,
+    "sourceIn": 0.48,
+    "sourceOut": 5.48
+  },
+  {
+    "id": "brief",
+    "method": "first decoded frame within max(minMSE*1.15,minMSE+1.5) of independent starting-page screenshot",
+    "reference": "raw/reference-brief.png",
+    "minMSE": 0.037375,
+    "firstMatchFrame": 43,
+    "lastMatchFrame": 78,
+    "fps": 25,
+    "previousTailIn": 5.48,
+    "sourceIn": 1.72,
+    "sourceOut": 9.72
+  },
+  {
+    "id": "reading",
+    "method": "first decoded frame within max(minMSE*1.15,minMSE+1.5) of independent starting-page screenshot",
+    "reference": "raw/reference-reading.png",
+    "minMSE": 0.1840625,
+    "firstMatchFrame": 16,
+    "lastMatchFrame": 85,
+    "fps": 25,
+    "previousTailIn": 4.92,
+    "sourceIn": 0.64,
+    "sourceOut": 7.64
+  }
+]

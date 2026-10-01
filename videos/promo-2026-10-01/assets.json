@@ -1,0 +1,240 @@
+{
+  "date": "2026-10-01",
+  "assets": [
+    {
+      "file": "raw/sample.webm",
+      "sha256": "4212934de7b767f3a9b763b57c5cdd1bb90f7de2f89d3f04744ff01c09eb8b58",
+      "bytes": 612007,
+      "duration": 11.76,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "vp8",
+          "width": 1280,
+          "height": 800,
+          "r_frame_rate": "25/1"
+        }
+      ],
+      "source": "https://dankoe.fangs.cc/",
+      "sourceVersion": "Live production snapshot captured 2026-10-01; source baseline 5614f26e310546449fd5ad5c91b50156cdbfc622",
+      "capture": "Isolated Playwright Chromium 151.0.7922.34 context; real DOM actions; no product modification; 1280x800 viewport; page loads and preparation gaps excluded in edit; no speed changes",
+      "rights": "Product demo of unofficial personal-learning translation site. Original texts and graphics remain Dan Koe and respective rightsholders; this record does not establish downstream publication permission. Brief excerpts only, no long-form narration.",
+      "audio": "Source recordVideo has no audio stream"
+    },
+    {
+      "file": "raw/full-brief.webm",
+      "sha256": "decc5039322b34348213f5cf0e595a723f771af23cd27d4f950d261d6a849da7",
+      "bytes": 772199,
+      "duration": 13.68,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "vp8",
+          "width": 1280,
+          "height": 800,
+          "r_frame_rate": "25/1"
+        }
+      ],
+      "source": "https://dankoe.fangs.cc/",
+      "sourceVersion": "Live production snapshot captured 2026-10-01; source baseline 5614f26e310546449fd5ad5c91b50156cdbfc622",
+      "capture": "Isolated Playwright Chromium 151.0.7922.34 context; real DOM actions; no product modification; 1280x800 viewport; page loads and preparation gaps excluded in edit; no speed changes",
+      "rights": "Product demo of unofficial personal-learning translation site. Original texts and graphics remain Dan Koe and respective rightsholders; this record does not establish downstream publication permission. Brief excerpts only, no long-form narration.",
+      "audio": "Source recordVideo has no audio stream"
+    },
+    {
+      "file": "raw/full-home.webm",
+      "sha256": "ff4e7302a0cddf5491dc6255a904659358f1562431231bdb72d03d9c65470677",
+      "bytes": 323578,
+      "duration": 7.88,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "vp8",
+          "width": 1280,
+          "height": 800,
+          "r_frame_rate": "25/1"
+        }
+      ],
+      "source": "https://dankoe.fangs.cc/",
+      "sourceVersion": "Live production snapshot captured 2026-10-01; source baseline 5614f26e310546449fd5ad5c91b50156cdbfc622",
+      "capture": "Isolated Playwright Chromium 151.0.7922.34 context; real DOM actions; no product modification; 1280x800 viewport; page loads and preparation gaps excluded in edit; no speed changes",
+      "rights": "Product demo of unofficial personal-learning translation site. Original texts and graphics remain Dan Koe and respective rightsholders; this record does not establish downstream publication permission. Brief excerpts only, no long-form narration.",
+      "audio": "Source recordVideo has no audio stream"
+    },
+    {
+      "file": "raw/full-reading.webm",
+      "sha256": "74adecae9437f37ff692f8e5144f1cd8c135ff59d0d6f5eba1e755163ca8952c",
+      "bytes": 879061,
+      "duration": 12.12,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "vp8",
+          "width": 1280,
+          "height": 800,
+          "r_frame_rate": "25/1"
+        }
+      ],
+      "source": "https://dankoe.fangs.cc/",
+      "sourceVersion": "Live production snapshot captured 2026-10-01; source baseline 5614f26e310546449fd5ad5c91b50156cdbfc622",
+      "capture": "Isolated Playwright Chromium 151.0.7922.34 context; real DOM actions; no product modification; 1280x800 viewport; page loads and preparation gaps excluded in edit; no speed changes",
+      "rights": "Product demo of unofficial personal-learning translation site. Original texts and graphics remain Dan Koe and respective rightsholders; this record does not establish downstream publication permission. Brief excerpts only, no long-form narration.",
+      "audio": "Source recordVideo has no audio stream"
+    },
+    {
+      "file": "raw/full-search.webm",
+      "sha256": "5d525568090c6e5051115d986c34349b890e9e568ade1921dd129cc0c08251b8",
+      "bytes": 396512,
+      "duration": 8.36,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "vp8",
+          "width": 1280,
+          "height": 800,
+          "r_frame_rate": "25/1"
+        }
+      ],
+      "source": "https://dankoe.fangs.cc/",
+      "sourceVersion": "Live production snapshot captured 2026-10-01; source baseline 5614f26e310546449fd5ad5c91b50156cdbfc622",
+      "capture": "Isolated Playwright Chromium 151.0.7922.34 context; real DOM actions; no product modification; 1280x800 viewport; page loads and preparation gaps excluded in edit; no speed changes",
+      "rights": "Product demo of unofficial personal-learning translation site. Original texts and graphics remain Dan Koe and respective rightsholders; this record does not establish downstream publication permission. Brief excerpts only, no long-form narration.",
+      "audio": "Source recordVideo has no audio stream"
+    },
+    {
+      "file": "raw/full-topic.webm",
+      "sha256": "7d31d951954cd24f8a1c0480150a7b7dfa0fdda473eb97aec21dd6c3a60923d2",
+      "bytes": 470645,
+      "duration": 10.08,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "vp8",
+          "width": 1280,
+          "height": 800,
+          "r_frame_rate": "25/1"
+        }
+      ],
+      "source": "https://dankoe.fangs.cc/",
+      "sourceVersion": "Live production snapshot captured 2026-10-01; source baseline 5614f26e310546449fd5ad5c91b50156cdbfc622",
+      "capture": "Isolated Playwright Chromium 151.0.7922.34 context; real DOM actions; no product modification; 1280x800 viewport; page loads and preparation gaps excluded in edit; no speed changes",
+      "rights": "Product demo of unofficial personal-learning translation site. Original texts and graphics remain Dan Koe and respective rightsholders; this record does not establish downstream publication permission. Brief excerpts only, no long-form narration.",
+      "audio": "Source recordVideo has no audio stream"
+    },
+    {
+      "file": "design/original-underscore.wav",
+      "sha256": "c08d9d881d306a6d31cb0872a0c4337c6b2aa502f87510efb06435316eea064f",
+      "bytes": 6144044,
+      "duration": 32.0,
+      "streams": [
+        {
+          "codec_type": "audio",
+          "codec_name": "pcm_s16le",
+          "r_frame_rate": "0/0",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "source": "scripts/design.py",
+      "creator": "Original procedural composition authored in this project by Ged on 2026-10-01",
+      "rights": "No third-party samples or melody source used; output available for this project.",
+      "role": "Reconstructed underscore, not site audio or live sound",
+      "listening": "Not performed"
+    },
+    {
+      "file": "sample.mp4",
+      "sha256": "85b09f828a0e899ac62d33d1869c053576e3b05904097a8f90a00b39c0e5bc4b",
+      "bytes": 433247,
+      "duration": 7.0,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "r_frame_rate": "25/1"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "r_frame_rate": "0/0",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "source": "Real footage + rendered title PNG + original synthesized underscore",
+      "rights": "Original product/text rights retained as above. No claim of official endorsement."
+    },
+    {
+      "file": "final.mp4",
+      "sha256": "686c86eb152d245380f19be0357bee99e4c9f51ce8cb3a07364abc0a416cfe84",
+      "bytes": 2205633,
+      "duration": 30.0,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "r_frame_rate": "25/1"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "r_frame_rate": "0/0",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "source": "Real footage + rendered title PNG + original synthesized underscore",
+      "rights": "Original product/text rights retained as above. No claim of official endorsement."
+    },
+    {
+      "file": "poster.jpg",
+      "sha256": "489835cc1fcca24f519721453d419f61e12a11df605c3d828ad272997f9268b3",
+      "bytes": 72377,
+      "source": "final.mp4 at 1.6 seconds",
+      "rights": "Same rights and provenance as final.mp4"
+    },
+    {
+      "file": "design/brief.png",
+      "sha256": "4b7495843927ccbfc6484b152c0a76ee4049a2fd92ad2ba1e6dfc3104ef5180f",
+      "bytes": 68380,
+      "source": "scripts/design.py",
+      "role": "Film packaging only; not product UI",
+      "fontSource": "macOS Hiragino Sans GB and Helvetica Neue; rasterized output, font files not distributed"
+    },
+    {
+      "file": "design/home.png",
+      "sha256": "fe016f5b3d8af5157d08ea725aa71d0626af06a33758adb34de8b47e0bcf43d0",
+      "bytes": 61888,
+      "source": "scripts/design.py",
+      "role": "Film packaging only; not product UI",
+      "fontSource": "macOS Hiragino Sans GB and Helvetica Neue; rasterized output, font files not distributed"
+    },
+    {
+      "file": "design/reading.png",
+      "sha256": "673374a9f53b1985e9cfd47b01913bef6c2c2bfd7b86bf873a3de284cac36fd9",
+      "bytes": 66239,
+      "source": "scripts/design.py",
+      "role": "Film packaging only; not product UI",
+      "fontSource": "macOS Hiragino Sans GB and Helvetica Neue; rasterized output, font files not distributed"
+    },
+    {
+      "file": "design/search.png",
+      "sha256": "bfdca0cd96a1a8c7b95c7121d0106231f72f856ec5d5d494af3ed54e6cda6bf3",
+      "bytes": 67244,
+      "source": "scripts/design.py",
+      "role": "Film packaging only; not product UI",
+      "fontSource": "macOS Hiragino Sans GB and Helvetica Neue; rasterized output, font files not distributed"
+    },
+    {
+      "file": "design/topic.png",
+      "sha256": "56e392400f0dd472622a43a968531c1e8f966c33b684ec5973b6bbd09a42724d",
+      "bytes": 66251,
+      "source": "scripts/design.py",
+      "role": "Film packaging only; not product UI",
+      "fontSource": "macOS Hiragino Sans GB and Helvetica Neue; rasterized output, font files not distributed"
+    }
+  ]
+}

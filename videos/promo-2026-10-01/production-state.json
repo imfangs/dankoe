@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-01",
+  "project": "Dan Koe 中文阅读站",
+  "stage": "completed_local_delivery",
+  "frozen": true,
+  "inputVersion": {
+    "sourceCommit": "5614f26e310546449fd5ad5c91b50156cdbfc622",
+    "productionUrl": "https://dankoe.fangs.cc/",
+    "hiUrl": "https://hi.fangs.cc/projects/dankoe/",
+    "capture": "2026-10-01 isolated live Chromium contexts"
+  },
+  "outputs": {
+    "final.mp4": "/Users/fangs/workspace/side/dankoe/videos/promo-2026-10-01/final.mp4",
+    "poster.jpg": "/Users/fangs/workspace/side/dankoe/videos/promo-2026-10-01/poster.jpg",
+    "sample.mp4": "/Users/fangs/workspace/side/dankoe/videos/promo-2026-10-01/sample.mp4",
+    "brief.md": "/Users/fangs/workspace/side/dankoe/videos/promo-2026-10-01/brief.md",
+    "DESIGN.md": "/Users/fangs/workspace/side/dankoe/videos/promo-2026-10-01/DESIGN.md",
+    "assets.json": "/Users/fangs/workspace/side/dankoe/videos/promo-2026-10-01/assets.json",
+    "storyboard.json": "/Users/fangs/workspace/side/dankoe/videos/promo-2026-10-01/storyboard.json",
+    "credits.md": "/Users/fangs/workspace/side/dankoe/videos/promo-2026-10-01/credits.md",
+    "review.md": "/Users/fangs/workspace/side/dankoe/videos/promo-2026-10-01/review.md",
+    "practice-feedback.md": "/Users/fangs/workspace/side/dankoe/videos/promo-2026-10-01/practice-feedback.md",
+    "independentReview": "/Users/fangs/workspace/side/dankoe/videos/promo-2026-10-01/evidence/independent-review.md"
+  },
+  "finalSha256": "686c86eb152d245380f19be0357bee99e4c9f51ce8cb3a07364abc0a416cfe84",
+  "posterSha256": "489835cc1fcca24f519721453d419f61e12a11df605c3d828ad272997f9268b3",
+  "passed": [
+    "7-second sample captured/rendered/decoded/played to ended",
+    "live topic/query/brief/article flow recorded",
+    "full decode and ffprobe 750 frames",
+    "no black/silence detection hits; static reading intervals reviewed",
+    "all cut pairs and dense frame reviewed",
+    "independent Chromium start-to-ended; zero dropped frames; 1920x1080 display",
+    "independent coordinator read-only cut/keyframe review"
+  ],
+  "remaining": [
+    "human listening",
+    "human first-time comprehension and aesthetic feedback",
+    "Hi publication and actual webpage playback verification"
+  ],
+  "temporaryServices": {
+    "port": 18774,
+    "state": "closed by finally",
+    "restart": "node videos/promo-2026-10-01/scripts/playback.mjs final.mp4"
+  },
+  "publication": {
+    "status": "not_published_by_this_task",
+    "handoff": "Hi coordinator may consume only frozen final.mp4, poster.jpg and credits.md"
+  },
+  "feedbackOwnership": "project-specific scripts remain here; generic narrow feedback handed to coordinator; no FBT/shared Skill modified"
+}

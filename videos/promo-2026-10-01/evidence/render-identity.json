@@ -1,0 +1,87 @@
+{
+  "finalSha256": "686c86eb152d245380f19be0357bee99e4c9f51ce8cb3a07364abc0a416cfe84",
+  "sampleSha256": "85b09f828a0e899ac62d33d1869c053576e3b05904097a8f90a00b39c0e5bc4b",
+  "posterSha256": "489835cc1fcca24f519721453d419f61e12a11df605c3d828ad272997f9268b3",
+  "inputHashes": {
+    "design/brief.png": "4b7495843927ccbfc6484b152c0a76ee4049a2fd92ad2ba1e6dfc3104ef5180f",
+    "design/home.png": "fe016f5b3d8af5157d08ea725aa71d0626af06a33758adb34de8b47e0bcf43d0",
+    "design/original-underscore.wav": "c08d9d881d306a6d31cb0872a0c4337c6b2aa502f87510efb06435316eea064f",
+    "design/reading.png": "673374a9f53b1985e9cfd47b01913bef6c2c2bfd7b86bf873a3de284cac36fd9",
+    "design/search.png": "bfdca0cd96a1a8c7b95c7121d0106231f72f856ec5d5d494af3ed54e6cda6bf3",
+    "design/topic.png": "56e392400f0dd472622a43a968531c1e8f966c33b684ec5973b6bbd09a42724d",
+    "raw/full-brief.webm": "decc5039322b34348213f5cf0e595a723f771af23cd27d4f950d261d6a849da7",
+    "raw/full-capture.json": "0459e84c9d8840831ff1b7695456eb24a0f28e8f89a465b7104232a051a654a6",
+    "raw/full-home.webm": "ff4e7302a0cddf5491dc6255a904659358f1562431231bdb72d03d9c65470677",
+    "raw/full-reading.webm": "74adecae9437f37ff692f8e5144f1cd8c135ff59d0d6f5eba1e755163ca8952c",
+    "raw/full-search.webm": "5d525568090c6e5051115d986c34349b890e9e568ade1921dd129cc0c08251b8",
+    "raw/full-topic.webm": "7d31d951954cd24f8a1c0480150a7b7dfa0fdda473eb97aec21dd6c3a60923d2",
+    "raw/reference-brief.png": "f24cc83e8d85d8c7a4122419a244ecf09ce584c1abd88720cc148b5a9009da0b",
+    "raw/reference-home.png": "aa413e9708c2efed33c19444fa985dd429a0db7790777c6c5473c34e99fc8477",
+    "raw/reference-reading.png": "89ae183ae038b4c59f3b6fec5ca1a54e35174708993072df121be769030b035a",
+    "raw/reference-search.png": "d190d809295be17fda3101e9dff7c7c6df08a48f97bdc1f1417c9a6a8a69b2db",
+    "raw/reference-topic.png": "d190d809295be17fda3101e9dff7c7c6df08a48f97bdc1f1417c9a6a8a69b2db",
+    "raw/sample-capture.json": "136f3feba45ee9991d427e1198e664572267be871f9a287c85212ebbba07524c",
+    "raw/sample.webm": "4212934de7b767f3a9b763b57c5cdd1bb90f7de2f89d3f04744ff01c09eb8b58",
+    "scripts/align.mjs": "07f1c2396b93a5b5af12199c38afde4e8aae617b7f53f5b714d204787c7509e4",
+    "scripts/align.py": "6a05c4378a8906935b04a6799a93108a20a0b0c3fc6a42416873a0973aeda3d7",
+    "scripts/capture.mjs": "53cbfb12453450cb9c00668483cb141dca49c4914cc7ef495d3f978b30fc9551",
+    "scripts/design.py": "94c6b67b0ceb681ea9fd1b05f909b892d1366e2f72097db81c96561b8af0bafe",
+    "scripts/manifest.py": "8f3979c90c76c8079aeb30fb8261362a4d6f676a89caa83e4092abb6fad111c4",
+    "scripts/playback.mjs": "3ba68ad5b0d385efad77434d80b05d2bfc2c53e3882dab4d31fe82902680f6ea",
+    "scripts/recon.mjs": "30b80478ab0772abd9ca6f9febe5c589658aeb1c849c9ce0f5245151508424d5",
+    "scripts/render.py": "ea36c4b802aeb1f3d2c1498d5d1e3f705cda4db5ca19bc79449fa08bbfce0bdf",
+    "scripts/verify.py": "22758945b58d10978735fa8b21eb26a8c527e8002eecae7941589b06e107b027",
+    "storyboard.json": "6d10064101fcf1592aed4f42770d92387c8d3803012121dc7ec92821d3f0c226",
+    "tools.json": "fac3d4d0d51117353fd614624da825401ac6ffe4c94b5ea04284cfa9b1b2e347"
+  },
+  "dependencies": {
+    "ffmpeg": {
+      "path": "/opt/homebrew/Caskroom/miniforge/base/bin/ffmpeg",
+      "realpath": "/opt/homebrew/Caskroom/miniforge/base/bin/ffmpeg",
+      "sha256": "4715ae35072983ff692eec746ec4ae6f71666fbf3f6d7020a80f0ea8be1eb716",
+      "version": "ffmpeg version 8.1.1 Copyright (c) 2000-2026 the FFmpeg developers"
+    },
+    "ffprobe": {
+      "path": "/opt/homebrew/Caskroom/miniforge/base/bin/ffprobe",
+      "sha256": "f6d7c4e2a6ffa8fec6c0bcfb3941b1e9871e60c325cfc1c302667f5c335c0f17"
+    },
+    "node": {
+      "usedCommand": "node",
+      "resolvedCommand": "/opt/homebrew/bin/node",
+      "version": "v26.8.1",
+      "bundledPath": "/Users/fangs/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node"
+    },
+    "playwright": {
+      "package": "/Users/fangs/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright/package.json",
+      "version": "1.62.1",
+      "packageSHA256": "ca170ec143a88ed3043ac953eb3b2377b2b97304104f4e1e23316684ce2c35af"
+    },
+    "fonts": [
+      {
+        "path": "/System/Library/Fonts/Hiragino Sans GB.ttc",
+        "sha256": "f887295caf2881cab9554b14c5ab4c9ee624c3895599da152ec37416b5aefae0",
+        "distribution": "Rendered PNG only; operating-system font file not distributed"
+      },
+      {
+        "path": "/System/Library/Fonts/HelveticaNeue.ttc",
+        "sha256": "a43317500f5c8086ebbe479b32e86f53ce7c075c14283aa9894cc23be5bfd8e2",
+        "distribution": "Rendered PNG only; operating-system font file not distributed"
+      }
+    ],
+    "renderMethod": "Pillow raster title overlays plus FFmpeg overlay; max encoder threads=2",
+    "sampleReview": {
+      "sha256": "85b09f828a0e899ac62d33d1869c053576e3b05904097a8f90a00b39c0e5bc4b",
+      "duration": 7,
+      "visual": "Side-rail headings and full contained product UI separate; brief points, question, critical reminder visible; no overlay obstruction",
+      "listening": "not performed"
+    },
+    "python": {
+      "executable": "/opt/homebrew/opt/python@3.14/bin/python3.14",
+      "version": "3.14.7 (main, Aug  5 2026, 10:29:49) [Clang 21.0.0 (clang-2100.1.1.101)]",
+      "Pillow": "12.1.1",
+      "NumPy": "2.4.2"
+    },
+    "productLockSHA256": "9eda7de0f0fc453f4ddee2278773af00887f98cf4e0fcc1452896e8b63154b32"
+  },
+  "rules": "Changing a source, script, font, tool binary or mix invalidates prior output review. Re-render and bind checks to the new MP4 SHA."
+}
