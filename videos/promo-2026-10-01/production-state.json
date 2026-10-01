@@ -1,7 +1,7 @@
 {
   "date": "2026-10-01",
   "project": "Dan Koe 中文阅读站",
-  "stage": "completed_local_delivery",
+  "stage": "published-hi-verified",
   "frozen": true,
   "inputVersion": {
     "sourceCommit": "5614f26e310546449fd5ad5c91b50156cdbfc622",
@@ -36,7 +36,7 @@
   "remaining": [
     "human listening",
     "human first-time comprehension and aesthetic feedback",
-    "Hi publication and actual webpage playback verification"
+    "Physical mobile devices and Safari application verification"
   ],
   "temporaryServices": {
     "port": 18774,
@@ -44,8 +44,161 @@
     "restart": "node videos/promo-2026-10-01/scripts/playback.mjs final.mp4"
   },
   "publication": {
-    "status": "not_published_by_this_task",
-    "handoff": "Hi coordinator may consume only frozen final.mp4, poster.jpg and credits.md"
+    "status": "published-hi-verified",
+    "verifiedAt": "2026-10-01T09:10:26.312861+00:00",
+    "scope": "Hi promotional media only; product runtime was not modified or redeployed",
+    "pageUrl": "https://hi.fangs.cc/projects/dankoe/",
+    "hiSourceCommit": "c9c46221e0a2f5fcc1f09e62c93502b3ca9e591c",
+    "hiPagesCommit": "f28f5d98742925803ac7c6172fa5d980b9282fa2",
+    "productionCommit": "f32b3e0c61441b01b690201df19df3b21b8404dd",
+    "productionStage": "completed_local_delivery",
+    "productionHandoff": {
+      "status": "not_published_by_this_task",
+      "handoff": "Hi coordinator may consume only frozen final.mp4, poster.jpg and credits.md"
+    },
+    "sourceVideoSha256": "686c86eb152d245380f19be0357bee99e4c9f51ce8cb3a07364abc0a416cfe84",
+    "sourcePosterSha256": "489835cc1fcca24f519721453d419f61e12a11df605c3d828ad272997f9268b3",
+    "publicAssets": {
+      "video": {
+        "url": "https://hi.fangs.cc/videos/projects/dankoe-promo-2026-10-01.mp4",
+        "sha256": "686c86eb152d245380f19be0357bee99e4c9f51ce8cb3a07364abc0a416cfe84",
+        "bytes": 2205633
+      },
+      "poster": {
+        "url": "https://hi.fangs.cc/images/projects/dankoe-promo-2026-10-01.webp",
+        "sha256": "6d43bee34b231d0a1faf700c4173a4d59d37ebc6e0b2ac80d1fcef9a28a07352",
+        "bytes": 74938
+      },
+      "credits": {
+        "url": "https://hi.fangs.cc/videos/projects/dankoe-promo-2026-10-01-credits.html",
+        "sha256": "720e1415abca568a63253a67cab21faab2989d88cf49f45f44994e89bcdd3a84",
+        "bytes": 1282
+      },
+      "page": {
+        "url": "https://hi.fangs.cc/projects/dankoe/index.html",
+        "sha256": "5bc912517c20045ca553f35518f885c06860d0faad35352244c11e012aae5e82",
+        "bytes": 8766
+      }
+    },
+    "integrity": {
+      "matchedFiles": 66,
+      "totalFiles": 66,
+      "normalDnsTls": true,
+      "remoteVideoMatchesFrozenSource": true
+    },
+    "range": {
+      "id": "dankoe",
+      "url": "https://hi.fangs.cc/videos/projects/dankoe-promo-2026-10-01.mp4",
+      "status": 206,
+      "contentRange": "bytes 0-1023/2205633",
+      "contentType": "video/mp4",
+      "bytes": 1024,
+      "prefixSha256": "864c77c21fa93696614ffc3573292352294558fc560d01463dc6875c432a33de",
+      "matchesLocalPrefix": true,
+      "ok": true
+    },
+    "browser": {
+      "engine": "chromium",
+      "version": "154.0.8037.58",
+      "results": [
+        {
+          "environment": "desktop",
+          "viewport": {
+            "width": 1280,
+            "height": 900
+          },
+          "colorScheme": "light",
+          "status": "passed",
+          "finishedAt": "2026-10-01T09:06:05.192Z",
+          "seekTestFinal": {
+            "currentTime": 30,
+            "ended": true,
+            "error": null,
+            "quality": {
+              "totalVideoFrames": 1138,
+              "droppedVideoFrames": 0
+            }
+          }
+        },
+        {
+          "environment": "phone",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "colorScheme": "light",
+          "status": "passed",
+          "finishedAt": "2026-10-01T09:06:21.195Z",
+          "seekTestFinal": {
+            "currentTime": 30,
+            "ended": true,
+            "error": null,
+            "quality": {
+              "totalVideoFrames": 416,
+              "droppedVideoFrames": 0
+            }
+          }
+        },
+        {
+          "environment": "narrow-dark",
+          "viewport": {
+            "width": 320,
+            "height": 740
+          },
+          "colorScheme": "dark",
+          "status": "passed",
+          "finishedAt": "2026-10-01T09:06:32.527Z",
+          "seekTestFinal": {
+            "currentTime": 30,
+            "ended": true,
+            "error": null,
+            "quality": {
+              "totalVideoFrames": 416,
+              "droppedVideoFrames": 0
+            }
+          }
+        }
+      ],
+      "desktopUninterruptedPlayback": {
+        "duration": 30,
+        "currentTime": 30,
+        "ended": true,
+        "playbackRate": 1,
+        "videoWidth": 1920,
+        "videoHeight": 1080,
+        "error": null,
+        "quality": {
+          "totalVideoFrames": 750,
+          "droppedVideoFrames": 0
+        }
+      },
+      "scope": "Desktop played from initial click to ended without seeking; phone and narrow-dark used documented scripted seeks before ended.",
+      "requestNotes": [
+        {
+          "environment": "phone",
+          "requests": [
+            {
+              "url": "https://hi.fangs.cc/videos/projects/dankoe-promo-2026-10-01.mp4",
+              "error": "net::ERR_ABORTED"
+            }
+          ]
+        }
+      ]
+    },
+    "receipts": {
+      "authority": "/Users/fangs/workspace/side/hi/docs/releases/2026-10-01-promo-publication-authority.json",
+      "integrity": "/Users/fangs/workspace/side/hi/docs/releases/2026-10-01-promo-integrity.json",
+      "range": "/Users/fangs/workspace/side/hi/docs/releases/2026-10-01-promo-range.json",
+      "browser": "/Users/fangs/workspace/side/hi/docs/releases/2026-10-01-promo-live-reading.json"
+    },
+    "limitations": [
+      "Synthetic viewports; physical mobile devices and the Safari application were not tested.",
+      "No human listening, human aesthetic approval or promotion-effectiveness claim.",
+      "Product CTA validation covers link opening and HTTP reachability, not product business flows."
+    ],
+    "productRuntimeChanged": false,
+    "productRuntimeDeployed": false,
+    "projectPushPerformed": false
   },
   "feedbackOwnership": "project-specific scripts remain here; generic narrow feedback handed to coordinator; no FBT/shared Skill modified"
 }

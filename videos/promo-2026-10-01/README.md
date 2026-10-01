@@ -28,4 +28,4 @@ python3 videos/promo-2026-10-01/scripts/manifest.py
 
 ## Hi 应用建议
 
-将同次 `final.mp4` 与 `poster.jpg` 交给 Hi 协调任务；建议在 Dan Koe 介绍页使用原生 controls、playsinline、preload=none、等比 contain，不自动播放，保留现有“开始阅读”和“格得精选”链接。不要复制 source recordings、工具日志或字体到 public。网站上架与公开 Range/哈希检查由协调任务另行执行，本任务未部署。
+将同次 `final.mp4` 与 `poster.jpg` 交给 Hi 协调任务；建议在 Dan Koe 介绍页使用原生 controls、playsinline、preload=none、等比 contain，不自动播放，保留现有“开始阅读”和“格得精选”链接。不要复制 source recordings、工具日志或字体到 public。宣传片现已由协调任务接入 [Hi 项目页](https://hi.fangs.cc/projects/dankoe/)，公开文件 SHA256、Range 与 Chromium 1280/390/320 像素视口检查通过，桌面完整播放；发布身份与回执见 `production-state.json`。手机视口记录过一次 MP4 `ERR_ABORTED`，相关播放检查仍通过，详情保留在回执。Dan Koe 阅读产品未修改或重发，本仓库未 push；听感、真人反馈、真机与 Safari 尚待验证。
