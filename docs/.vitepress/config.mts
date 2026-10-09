@@ -4,7 +4,7 @@ import cjkFriendly from 'markdown-it-cjk-friendly'
 const sidebar = JSON.parse(fs.readFileSync(new URL('./sidebar.json', import.meta.url),'utf8'))
 export default defineConfig({
   lang: 'zh-CN', title: 'Dan Koe · 中文', description: 'Dan Koe 公开文章的非官方中文译站，关于心智、自主生活与一人企业。',
-  srcExclude: ['**/README.md'], cleanUrls: true, appearance: true,
+  srcExclude: ['**/README.md', 'HOME-2026-10-09.md'], cleanUrls: true, appearance: true,
   head: [['meta',{name:'robots',content:'noindex, nofollow'}],['meta',{name:'theme-color',content:'#fafaf7'}]],
   markdown: { config(md) { md.use(cjkFriendly) } },
   themeConfig: {
